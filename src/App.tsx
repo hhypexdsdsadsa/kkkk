@@ -244,7 +244,9 @@ function App() {
               onClick={scrollToOffer}
               className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide mb-6"
             >
-              ☕ QUERO EMAGRECER EM PROPÓSITO COM DEUS!
+              <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                ☕ QUERO EMAGRECER EM PROPÓSITO COM DEUS!
+              </a>
             </button>
             
             <div className="text-center text-gray-300 text-lg">
@@ -252,10 +254,410 @@ function App() {
             </div>
           </div>
         </div>
+        
+        {/* Gradiente de transição para próxima seção */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-900"></div>
+      </section>
+
+      {/* SEÇÃO 2 - VOCÊ RECONHECE ESSES SINAIS? */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-black mb-12 text-white">
+              VOCÊ RECONHECE ESSES <span className="text-orange-500">SINAIS</span>?
+            </h2>
+            
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 mb-12">
+              <div className="grid md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto">
+                {[
+                  "😴 Cansaço ao acordar, mesmo dormindo 8 horas",
+                  "🎈 Sensação constante de inchaço",
+                  "🧠 Perda de foco durante o dia",
+                  "😔 Desânimo espiritual",
+                  "🍽️ Ansiedade alimentar",
+                  "💔 Baixa autoestima"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-center space-x-3 p-4 bg-gray-700/30 rounded-xl">
+                    <div className="w-2 h-2 bg-orange-500 rounded-full flex-shrink-0"></div>
+                    <p className="text-lg md:text-xl text-gray-300">{item}</p>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="mt-12 pt-8 border-t border-gray-700">
+                <p className="text-2xl md:text-3xl font-bold text-white mb-8">
+                  Se isso é familiar, você não está sozinha.
+                </p>
+              </div>
+            </div>
+            
+            <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+              <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                ☕ QUERO SAIR DESSE CICLO
+              </a>
+            </button>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-800"></div>
+      </section>
+
+      {/* SEÇÃO 3 - PARE DE CAIR NAS MESMAS ARMADILHAS */}
+      <section className="py-20 bg-gradient-to-br from-gray-800 via-black to-red-500/10 relative">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-black mb-12 text-white">
+              PARE DE CAIR NAS MESMAS <span className="text-red-500">ARMADILHAS</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              {[
+                {
+                  icon: "🥗",
+                  title: "Dietas Genéricas",
+                  description: "Funcionam por 2 semanas, depois você volta ao peso anterior"
+                },
+                {
+                  icon: "🍵",
+                  title: "Chás Milagrosos",
+                  description: "Promessas vazias que só drenam sua carteira"
+                },
+                {
+                  icon: "💊",
+                  title: "Jejuns Aleatórios",
+                  description: "Sem propósito e ciência, tudo é temporário"
+                }
+              ].map((item, index) => (
+                <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-red-500/20">
+                  <div className="text-4xl mb-4">{item.icon}</div>
+                  <h3 className="text-xl font-bold text-red-500 mb-4">{item.title}</h3>
+                  <p className="text-gray-300 text-lg leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="bg-gradient-to-r from-red-500/20 to-orange-500/20 rounded-2xl p-8 md:p-12 mb-12">
+              <p className="text-2xl md:text-3xl font-bold text-white mb-8">
+                Sem propósito e ciência, qualquer método é apenas mais uma tentativa frustrada.
+              </p>
+            </div>
+            
+            <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+              <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                ☕ QUERO UM MÉTODO REAL
+              </a>
+            </button>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-900"></div>
+      </section>
+
+      {/* SEÇÃO 4 - CONHEÇA O JEJUM COM CAFÉ PRETO */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-orange-500/10">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-black mb-12 text-white">
+              CONHEÇA O <span className="text-orange-500">JEJUM COM CAFÉ PRETO</span>
+            </h2>
+            
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 mb-12">
+              <div className="flex justify-center mb-8">
+                <div className="text-8xl">☕</div>
+              </div>
+              
+              <p className="text-xl md:text-2xl text-gray-300 mb-6 leading-relaxed">
+                Jejum com Café Preto é um protocolo <span className="text-orange-500 font-bold">simples</span>, <span className="text-yellow-500 font-bold">ancestral</span> e <span className="text-green-500 font-bold">validado pela ciência</span>.
+              </p>
+              
+              <p className="text-2xl md:text-3xl font-bold text-white mb-8">
+                Nada de modinha.
+              </p>
+              
+              <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+                Você acorda, toma um café puro e deixa o corpo e a mente entrarem em modo de cura.
+              </p>
+            </div>
+            
+            <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+              <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                ☕ QUERO CONHECER O MÉTODO
+              </a>
+            </button>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-800"></div>
+      </section>
+
+      {/* SEÇÃO 5 - CIÊNCIA + FÉ = RESULTADO */}
+      <section className="py-20 bg-gradient-to-br from-gray-800 via-black to-blue-500/10 relative">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
+              <span className="text-blue-500">CIÊNCIA</span> + <span className="text-yellow-500">FÉ</span> = <span className="text-green-500">RESULTADO</span>
+            </h2>
+            
+            <div className="grid lg:grid-cols-2 gap-12">
+              {/* BLOCO CIENTÍFICO */}
+              <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/10 rounded-2xl p-8 border border-blue-500/20">
+                <h3 className="text-2xl md:text-3xl font-black text-blue-500 mb-8 text-center">
+                  BLOCO CIENTÍFICO
+                </h3>
+                
+                <div className="space-y-6">
+                  {[
+                    {
+                      icon: "🔥",
+                      title: "Lipólise",
+                      description: "Queima gordura sem atacar músculos"
+                    },
+                    {
+                      icon: "⚡",
+                      title: "Aumento de Dopamina",
+                      description: "Mais foco e energia natural"
+                    },
+                    {
+                      icon: "🧬",
+                      title: "Autofagia",
+                      description: "Limpeza celular profunda"
+                    },
+                    {
+                      icon: "📊",
+                      title: "Estabilidade de Insulina",
+                      description: "Sem compulsão alimentar"
+                    }
+                  ].map((item, index) => (
+                    <div key={index} className="flex items-start space-x-4 p-4 bg-gray-800/30 rounded-xl">
+                      <div className="text-2xl flex-shrink-0">{item.icon}</div>
+                      <div>
+                        <h4 className="text-lg font-bold text-blue-400 mb-2">{item.title}</h4>
+                        <p className="text-gray-300">{item.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              {/* BLOCO ESPIRITUAL */}
+              <div className="bg-gradient-to-br from-yellow-500/20 to-yellow-500/10 rounded-2xl p-8 border border-yellow-500/20">
+                <h3 className="text-2xl md:text-3xl font-black text-yellow-500 mb-8 text-center">
+                  BLOCO ESPIRITUAL
+                </h3>
+                
+                <div className="space-y-6">
+                  {[
+                    {
+                      icon: "📖",
+                      title: "Jejum como Prática Bíblica",
+                      description: "Tradição milenar de purificação"
+                    },
+                    {
+                      icon: "🙏",
+                      title: "Conexão Profunda com Deus",
+                      description: "Fortalecimento da fé e propósito"
+                    },
+                    {
+                      icon: "✨",
+                      title: "Renovação Interior",
+                      description: "Transformação que vem de dentro"
+                    },
+                    {
+                      icon: "💪",
+                      title: "Disciplina Espiritual",
+                      description: "Fortalecimento da vontade"
+                    }
+                  ].map((item, index) => (
+                    <div key={index} className="flex items-start space-x-4 p-4 bg-gray-800/30 rounded-xl">
+                      <div className="text-2xl flex-shrink-0">{item.icon}</div>
+                      <div>
+                        <h4 className="text-lg font-bold text-yellow-400 mb-2">{item.title}</h4>
+                        <p className="text-gray-300">{item.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center mt-12">
+              <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+                <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                  ☕ QUERO ALIAR CIÊNCIA E FÉ
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-900"></div>
+      </section>
+
+      {/* SEÇÃO 6 - CONHEÇA A CAFÉ GPT */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-purple-500/10">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-black text-center mb-12 text-white">
+              CONHEÇA A <span className="text-purple-500">CAFÉ GPT</span>
+            </h2>
+            
+            <p className="text-xl md:text-2xl text-center text-gray-300 mb-16 max-w-4xl mx-auto leading-relaxed">
+              A IA que acompanha você 24h, enviando versículos, dicas alimentares, motivação e monitoramento do progresso.
+            </p>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Benefícios */}
+              <div>
+                <h3 className="text-2xl md:text-3xl font-black text-purple-500 mb-8">
+                  Benefícios da Café GPT:
+                </h3>
+                
+                <div className="space-y-4">
+                  {[
+                    "🎯 Motivação diária personalizada",
+                    "📖 Versículo e reflexão matinal",
+                    "⚙️ Ajustes personalizados no protocolo",
+                    "💝 Check-ins emocionais",
+                    "🍽️ Receitas leves e saudáveis",
+                    "⏰ Lembretes de quebra de jejum"
+                  ].map((item, index) => (
+                    <div key={index} className="flex items-center space-x-3 p-4 bg-gray-800/30 rounded-xl">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full flex-shrink-0"></div>
+                      <p className="text-lg text-gray-300">{item}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Exemplo de Conversa */}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-purple-500/20">
+                <h3 className="text-xl font-bold text-purple-500 mb-6 text-center">
+                  Exemplo de Conversa:
+                </h3>
+                
+                <div className="space-y-4">
+                  {/* Mensagem da IA */}
+                  <div className="bg-purple-500/20 rounded-xl p-4">
+                    <div className="flex items-center space-x-2 mb-2">
+                      <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">AI</span>
+                      </div>
+                      <span className="text-purple-400 font-semibold">Café GPT</span>
+                    </div>
+                    <p className="text-gray-300">Bom dia! Como você está se sentindo hoje? 🌅</p>
+                  </div>
+                  
+                  {/* Mensagem do usuário */}
+                  <div className="bg-gray-700/50 rounded-xl p-4 ml-8">
+                    <div className="flex items-center space-x-2 mb-2">
+                      <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">V</span>
+                      </div>
+                      <span className="text-orange-400 font-semibold">Você</span>
+                    </div>
+                    <p className="text-gray-300">Meio desanimada...</p>
+                  </div>
+                  
+                  {/* Resposta da IA */}
+                  <div className="bg-purple-500/20 rounded-xl p-4">
+                    <div className="flex items-center space-x-2 mb-2">
+                      <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm font-bold">AI</span>
+                      </div>
+                      <span className="text-purple-400 font-semibold">Café GPT</span>
+                    </div>
+                    <p className="text-gray-300">Entendo. Lembre-se: "Posso todas as coisas naquele que me fortalece" (Filipenses 4:13). Que tal começarmos com seu café e uma oração? ☕🙏</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center mt-12">
+              <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+                <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                  ☕ QUERO O SUPORTE DA CAFÉ GPT
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-800"></div>
+      </section>
+
+      {/* SEÇÃO 7 - COMO FUNCIONA O PROTOCOLO */}
+      <section className="py-20 bg-gradient-to-br from-gray-800 via-black to-green-500/10 relative">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
+              COMO FUNCIONA O <span className="text-green-500">PROTOCOLO</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+              {[
+                {
+                  step: "1",
+                  icon: "☕",
+                  title: "Café em Jejum",
+                  description: "Acorde e tome seu café preto, sem açúcar ou adoçante"
+                },
+                {
+                  step: "2",
+                  icon: "📖",
+                  title: "Oração Devocional",
+                  description: "Dedique 10 minutos para oração e leitura bíblica"
+                },
+                {
+                  step: "3",
+                  icon: "⏰",
+                  title: "Jejum de 12 a 16h",
+                  description: "Mantenha o jejum pelo período determinado"
+                },
+                {
+                  step: "4",
+                  icon: "🍽️",
+                  title: "Quebra Leve",
+                  description: "Alimente-se de forma consciente e saudável"
+                },
+                {
+                  step: "5",
+                  icon: "📱",
+                  title: "Mensagem da Café GPT",
+                  description: "Receba orientação personalizada e motivação"
+                }
+              ].map((item, index) => (
+                <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300 border border-green-500/20">
+                  <div className="w-12 h-12 bg-green-500 text-black font-black text-xl rounded-full flex items-center justify-center mx-auto mb-4">
+                    {item.step}
+                  </div>
+                  <div className="text-4xl mb-4">{item.icon}</div>
+                  <h3 className="text-xl font-bold text-green-400 mb-4">{item.title}</h3>
+                  <p className="text-gray-300 leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center">
+              <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide">
+                <a href="https://go.disruptybr.com.br/q1yutawwn5" target="_blank" rel="noopener noreferrer" className="block">
+                  ☕ QUERO SEGUIR ESSE RITUAL
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-gray-900"></div>
       </section>
 
       {/* SEÇÃO 2 - CARROSSEL DE ANTES E DEPOIS */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
             RESULTADOS <span className="text-orange-500">REAIS</span>
@@ -318,6 +720,9 @@ function App() {
             </p>
           </div>
         </div>
+        
+        {/* Gradiente de transição */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black"></div>
       </section>
 
       {/* SEÇÃO 3 - DOR DO LEAD */}
