@@ -1,27 +1,5 @@
 import React from 'react';
-import { 
-  Coffee, 
-  Heart, 
-  Star, 
-  CheckCircle, 
-  Clock, 
-  Users, 
-  Award,
-  Zap,
-  Shield,
-  Target,
-  BookOpen,
-  MessageCircle,
-  ChevronDown,
-  Play,
-  Flame,
-  Brain,
-  Dna,
-  BarChart3,
-  Pray,
-  Sparkles,
-  Muscle
-} from 'lucide-react';
+import { Coffee, Heart, Star, CheckCircle, Clock, Users, Award, Zap, Shield, Target, BookOpen, MessageCircle, ChevronDown, Play, Flame, Brain, Dna, BarChart3, SprayCan as Pray, Sparkles, FileMusic as Muscle } from 'lucide-react';
 
 function App() {
   const handleCTAClick = () => {
