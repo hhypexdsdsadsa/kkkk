@@ -225,15 +225,23 @@ function App() {
 
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-12">
             <div className="w-full max-w-3xl mx-auto">
-              <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300" style={{paddingBottom: '177.78%', height: 0}}>
-                <iframe 
-                  src="https://youtube.com/embed/MV1kgQ6VRus" 
-                  title="Protocolo Jejum com Café Preto - VSL"
-                  className="absolute top-0 left-0 w-full h-full"
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowFullScreen
-                  loading="lazy"
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                <div 
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                      <script src="https://fast.wistia.com/player.js" async></script>
+                      <script src="https://fast.wistia.com/embed/gc9ywrd50y.js" async type="module"></script>
+                      <style>
+                        wistia-player[media-id='gc9ywrd50y']:not(:defined) { 
+                          background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/gc9ywrd50y/swatch'); 
+                          display: block; 
+                          filter: blur(5px); 
+                          padding-top:100.0%; 
+                        }
+                      </style> 
+                      <wistia-player media-id="gc9ywrd50y" aspect="1.0"></wistia-player>
+                    `
+                  }}
                 />
               </div>
             </div>
